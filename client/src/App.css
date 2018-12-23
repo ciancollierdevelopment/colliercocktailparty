@@ -1,0 +1,54 @@
+ @import url('https://fonts.googleapis.com/css?family=Charm');
+
+#root {
+  overflow: hidden;
+}
+
+.alerts {
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+}
+
+.cocktail-container {
+  margin-top: 1em;
+}
+
+.cocktail-img {
+  display: block;
+  margin: auto;
+}
+
+.name-form-container {
+  width: 100%;
+}
+
+.name-form {
+  margin-top: 20px;
+  width: 60%;
+  margin: auto;
+}
+
+.name-form img {
+  display: block;
+  margin: auto;
+}
+
+.name-form input {
+  width: 85%;
+  margin: auto;
+  text-align: center;
+}
+
+.name-form button {
+  width: 60%;
+  margin-top: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+h1 {
+  font-family: 'Charm', cursive;
+  text-align: center;
+}
