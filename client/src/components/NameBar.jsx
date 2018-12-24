@@ -32,14 +32,14 @@ class NameBar extends Component {
     return (
       <Navbar color="dark" dark expand="md">
         <NavbarBrand href="/">Your Name: {this.props.name}</NavbarBrand>
-        <NavbarToggler onClick={this.toggle} />
-        <Collapse isOpen={this.state.isOpen} navbar>
+        {/*<NavbarToggler onClick={this.toggle} />*/}
+        {/*<Collapse isOpen={this.state.isOpen} navbar> */}
           <Nav className="ml-auto" pills>
             <NavItem>
               <Button onClick={this.props.handler}>Change Name</Button>
             </NavItem>
           </Nav>
-        </Collapse>
+        {/*</Collapse>*/}
       </Navbar>
     );
   }
